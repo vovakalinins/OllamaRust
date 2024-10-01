@@ -5,9 +5,7 @@ OllamaServe is an open-source HTTP server built with Rust and Axum, designed to 
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [API Endpoints](#api-endpoints)
-4. [Contributing](#contributing)
-5. [License](#license)
+3. [License](#license)
 
 ## Installation
 
@@ -53,4 +51,9 @@ curl -X POST http://127.0.0.1:14434/prompt \
 {
   "response": "Hello, How Can I Assist You..."
 }
+```
+
+### License
+```bash
+Feel free to adjust the project name and update the repository URL with your actual GitHub account details when publishing this project. Let me know if you need further modifications!
 ```
