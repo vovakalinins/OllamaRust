@@ -54,6 +54,5 @@ curl -X POST http://127.0.0.1:14434/prompt \
 ```
 
 ### License
-```bash
+This project is licensed under the MIT License. See the LICENSE file for details.
 Feel free to adjust the project name and update the repository URL with your actual GitHub account details when publishing this project. Let me know if you need further modifications!
-```
