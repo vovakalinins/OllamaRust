@@ -69,7 +69,7 @@ async fn handle_prompt(
 
 // Update the prompt function to accept a reference to GenerationOptions
 async fn prompt(prompt: String, ollama: Arc<Ollama>, options: &GenerationOptions) -> String {
-    let model = "closex/neuraldaredevil-8b-abliterated".to_string();
+    let model = "closex/neuraldaredevil-8b-abliterated".to_string(); // Change the Model based on your liking
 
     let res = ollama
         .generate(GenerationRequest::new(model, prompt).options(options.clone()))
