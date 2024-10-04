@@ -41,7 +41,7 @@ async fn main() {
         .unwrap();
 }
 
-// Define a struct to hold all shared state
+// Structs
 struct AppState {
     ollama: Arc<Ollama>,
     options: GenerationOptions,
