@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-ollama-rs = "0.2.1"
+ollama-rs = {version = "0.2.1", features = ["chat-history"]}
 tokio = { version = "1", features = ["full"] }
 axum = "0.6"
 serde = { version = "1", features = ["derive"] }
